@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src= 
+    "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+            integrity= 
+    "sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+</head>
+<body>
+   <div class="container"> 
+    <div class="heading">calc</div>
+    <input type="text" id="result" class="result" disabled>
+    <div class="operations">
+        <button class="calculator key1 "  onclick="addNumber('7')">7</button>
+        <button class="calculator key2 "  onclick="addNumber('8')" >8</button>
+        <button class="calculator key3 "  onclick="addNumber('9') " >9</button>
+        <button class="calculator key4 "  onclick="deleteLastElement()" >Del</button>
+        <button class="calculator key5 "  onclick="addNumber('4')" >4</button>
+        <button class="calculator key6 "  onclick="addNumber('5')" >5</button>
+        <button class="calculator key7 "  onclick="addNumber('6')" >6</button>
+        <button class="calculator key8 "  onclick="addoperation('+')" >+</button>
+        <button class="calculator key9 "  onclick="addNumber('1')" >1</button>
+        <button class="calculator key10 " onclick="addNumber('2')" >2</button>
+        <button class="calculator key11 " onclick="addNumber('3')" >3</button>
+        <button class="calculator key12 " onclick="addoperation('-')" >-</button>
+        <button class="calculator key13 " onclick="addoperation('.')" >.</button>
+        <button class="calculator key14 " onclick="addNumber('0')" >0</button>
+        <button class="calculator key15 " onclick="addoperation('/')" >/</button>
+        <button class="calculator key16 " onclick="addoperation('*')" >X</button>
+        <button class="calculator key17 " onclick="resetScreen()" >RESET</button>
+        <button class="calculator key18 " onclick="result()" >=</button>
+    </div>
+   </div>
+   <script src="sccript.js"></script>
+</body>
+</html>
